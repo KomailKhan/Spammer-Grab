@@ -7,7 +7,7 @@ import time
 import click
 import requests
 
-__author__ = 'loncat <me@lcat.dev>'
+__author__ = 'Komail <me@komail.dev>'
 
 DEFAULT_REQ_DELAY = 60
 GAC_REQ_URL = 'https://p.grabtaxi.com/api/passenger/v2/profiles/register'
@@ -77,6 +77,6 @@ if __name__ == '__main__':
     click.secho(f'{sys.argv[0]} \u2014 Grab Activation Code (GAC) spammer',
                 fg='black',
                 bg='green')
-    click.echo(' author\tloncat <me@lcat.dev>')
-    click.echo(' url\thttps://github.com/p4kl0nc4t/Spammer-Grab\n')
+    click.echo(' author\tKomail <me@komail.dev>')
+    click.echo(' url\thttps://github.com/KomailKhan/Spammer-Grab\n')
     main()
